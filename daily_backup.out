@@ -1,0 +1,36 @@
+Archiving /var/log
+/var/log/amazon/
+/var/log/amazon/ssm/
+/var/log/amazon/ssm/amazon-ssm-agent.log
+/var/log/amazon/ssm/hibernate.log
+/var/log/audit/
+/var/log/audit/audit.log
+/var/log/boot.log
+/var/log/btmp
+/var/log/chrony/
+/var/log/cloud-init.log
+/var/log/cloud-init-output.log
+/var/log/cron
+/var/log/dmesg
+/var/log/grubby_prune_debug
+/var/log/journal/
+/var/log/journal/ec2d0f46985d6ec5013a525e909aa54e/
+/var/log/journal/ec2d0f46985d6ec5013a525e909aa54e/system.journal
+/var/log/journal/ec2d0f46985d6ec5013a525e909aa54e/user-1000.journal
+/var/log/lastlog
+/var/log/maillog
+/var/log/messages
+/var/log/sa/
+/var/log/sa/sa12
+/var/log/secure
+/var/log/spooler
+/var/log/tallylog
+/var/log/wtmp
+/var/log/yum.log
+Backup complete
+Pushing Daily_Backup_2020-09-12-1642-39.tar.gz to arn:aws:s3:::jmerhib
+Daily_Backup_2020-09-12-1642-39.tar.gz uploaded to arn:aws:s3:::jmerhib
+ Verifying file uploaded to arn:aws:s3:::jmerhib
+2020-09-12 16:42:41     318017 Daily_Backup_2020-09-12-1642-39.tar.gz
+Daily_Backup_2020-09-12-1642-39.tar.gz uploaded to arn:aws:s3:::jmerhib successfully
+Purging backups older than 7 days
